@@ -1,3 +1,12 @@
+
+:root {
+    --bg: #d1d1d1;
+    --bg-primary: #777;
+    --txt: #fff;
+    --btn: #e3362c;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,3 +21,59 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 40rem;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.card h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.card p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    margin: 2rem;
+}
+ input {
+    display: none;
+ }
+
+ label {
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem 4rem;
+    background-color: var(--btn);
+    color: var(--txt);
+    border-radius: 1rem;
+ }
